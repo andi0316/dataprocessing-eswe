@@ -1,9 +1,16 @@
 # How to Run this Code:
 
->This project is written in **C++**, so please ensure that you have a C++ compiler installed. 
->It was written using CLion, so if Clion or an IDE such as Visual Studio code is installed, you can simply download the project and build/run through the IDE.
+- This project is written in **C++**, so please ensure that you have a C++ compiler installed.
+- This project utilizes features from the **C++17** standard, specifically `std::optional`. Please make sure that your compiler supports C++17 or higher.
+- It was written using CLion, so if Clion or an IDE such as Visual Studio code is installed, you can simply download the project and build/run through the IDE.
+	- If compiling through the command line, please compile with the accurate version flag: `g++ -std=c++17 main.cpp -o my_program`
+ 	- Go to `CMakeLists.txt` and ensure that it contains the following line:
 
->Please be sure to download "functions.h", as it contains the functions required for this project. Additionally, be sure to not rename "functions.h," as main.cpp requires it.
+  ```cmake
+  set(CMAKE_CXX_STANDARD 17) 
+
+
+- Please be sure to download "functions.h", as it contains the functions required for this project. Additionally, be sure to not rename "functions.h," as main.cpp requires it.
 
 ## Structure of the Files:
 
