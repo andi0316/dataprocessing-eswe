@@ -29,7 +29,7 @@ Additionally, the instructions provide directions to return, not print, so there
 
 - **Test cases:** As some functions and edgecases can return null or throw exceptions, perhaps providing or requiring the student to handle developed test cases would be more useful and both user and student-friendly.
 	- This would *also* allow for easier grading for the TA's, as they would be able to just run the testcases (either student-made, or run the code through their own) and grade accordingly.
-	- Or, perhaps a standardized "main" function for either every student to implement (and thus ta's just have to run the code and skim the logic/syntax).
+	- Or, perhaps a more detailed skeleton code for testing every student to implement for testing (and thus ta's just have to run the code and skim the logic/syntax).
 
 - **Integrate print statements:** This is useful for debugging, but also to allow the user to understand what is happening, as return statements are essential to the code, but not inherently seen by the user.
 	- I used this in debugging, where I would print "done" or "database not found" and such to ensure my code was working properly.
